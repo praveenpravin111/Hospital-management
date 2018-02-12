@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="home.master.cs" Inherits="home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VDS 4</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/xfade2.js"></script>
+        <style type="text/css">
+            .style1
+            {
+                width: 100%;
+            }
+            p.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+                height: 17px;
+            }
+            </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="container">
+  <div id="container2">
+    <div id="top_container">
+      <div id="vrh">
+        <div id="logo"><a href="#"><img src="images/hh.jpg" alt="" /></a></div>
+      </div>
+      <div class="clr"></div>
+      <div class="menu">
+       <ul>
+          <li class="menu_active"> <a href="#">HOME</a> </li>
+       
+          <li> <a href="newreg.aspx">Registration</a></li>
+          <li> <a href="phrhome.aspx">PHR Owner</a> </li>
+          <li> <a href="access.aspx">Access control</a> </li>
+          <li> <a href="emergencymain.aspx">Emergency</a> </li>
+             <li> <a href="report.aspx">Report</a> </li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div id="content_container">
+      <div class="centercolumn">
+        <div id="maincontent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <table class="style1">
+                   
+                    <tr>
+                        <td>
+                            &nbsp;&nbsp;<p class="MsoNormal">
+                                &nbsp;</p>
+                        </td>
+                    </tr>
+                   
+                </table>
+        <div class="clr">
+                    </div>
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="vodoravno">&nbsp;<div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+</div>
+<div align=center></div>
+    </form>
+</body>
+</html>

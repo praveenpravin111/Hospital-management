@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main.master.cs" Inherits="main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>VDS 4</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/xfade2.js"></script>
+        </head>
+<body>
+    <form id="form1" runat="server">
+<div id="container">
+  <div id="container2">
+    <div id="top_container">
+      <div id="vrh">
+        <div id="logo"><a href="#"><img src="images/hh.jpg" width="476" height="54" alt="" /></a></div>
+      </div>
+      <div class="clr"></div>
+      <div class="menu">
+          <ul>
+          <li class="menu_active"> <a href="#">HOME</a> </li>
+         
+          <li> <a href="newreg.aspx">Registration</a></li>
+          <li> <a href="phrhome.aspx">PHR Owner</a> </li>
+          <li> <a href="access.aspx">Access control</a> </li>
+          <li> <a href="emergencymain.aspx">Emergency</a> </li>
+           <li> <a href="report.aspx">Report</a> </li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div id="content_container">
+      <div class="centercolumn">
+        <div id="maincontent">
+          <div id="sadrzaj">
+              <br />
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              </asp:ContentPlaceHolder>
+          </div>
+          <div id="slajder">
+            <div id="rotator"> <img src="images/images.jpg" width="436" height="206" alt="" /> <img src="images/images1.jpg" width="436" height="206" alt="" /> <img src="images/images2.jpg" width="436" height="206" alt="" /></div>
+          </div>
+        </div>
+        <div class="clr">
+          
+                    </div>
+        <div class="vodoravno"></div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
+<div align=center></div>
+    </form>
+</body>
+</html>
